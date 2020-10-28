@@ -1,0 +1,168 @@
+* {
+    border: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+    font-family: inherit;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    text-decoration: none;
+    vertical-align: baseline;
+    -ms-word-break: break-all;
+    word-break: break-all;
+    word-break: break-word;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto}
+body {
+    font-family: helvetica neue,Helvetica,Arial;
+    line-height: 1.3rem;
+    width: 100%;
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 0;
+    background: #efeff4}
+sup {
+    font-size: smaller;
+    margin-top: -6px;
+    position: relative;
+    top: -6px}
+a {
+    color: #00a;
+    text-underline-style: dotted}
+strong,b {
+    font-weight: 700}
+em,i {
+    font-style: italic}
+p {
+    margin: 7px 0;
+    text-align: justify}
+ul {
+    margin: 0 15px;
+    list-style-type: square}
+h1,h2,h3,h4,h5,h6 {
+    font-weight: 700;
+    text-align: center}
+h1 {
+    font-size: 120%}
+h2 {
+    font-size: 110%}
+pre {
+    background-color: #f7f7f7;
+    width: 100%}
+table,th,td {
+    border: 1px solid #ddd;
+    border-collapse: collapse}
+th,td {
+    padding: 5px}
+table {
+    table-layout: fixed;
+    width: 100%}
+td {
+    text-align: left}
+th {
+    text-align: center;
+    font-weight: 700}
+tr:nth-child(odd) {
+    background-color: #f7f7f7}
+tr:nth-child(even) {
+    background-color: #fff}
+panel {
+    display: block;
+    margin: 50px auto}
+block {
+    background-color: transparent;
+    display: block;
+    margin: 15px 0;
+    padding: 5px 15px}
+block,fieldset {
+    border-top: 1px solid rgba(200,200,200,.5)}
+fieldset {
+    background-color: #fff;
+    margin: 8px 0}
+hr,block,fieldset,fieldset>a,fieldset>div,fieldset>textarea {
+    border-bottom: 1px solid rgba(200,200,200,.5)}
+@media only screen and (max-width: 1024px) and ((-webkit-min-device-pixel-ratio: 2),(min-resolution: 192dpi)) {
+    block,fieldset {
+    border-top: .5px solid #c8c8c8}
+hr,block,fieldset,fieldset>a,fieldset>div,fieldset>textarea {
+    border-bottom: .5px solid #c8c8c8}
+}
+fieldset>a: last-child,fieldset>div: last-child,fieldset>textarea: last-child {
+    border-bottom: 0}
+fieldset>a,fieldset>div,fieldset>textarea {
+    padding: 10px 15px}
+img.icon {
+    height: auto;
+    max-height: 50px;
+    max-width: 50px;
+	border-radius: 10px;
+	box-shadow: 0 0 11px #c1c1c1;
+	}
+fieldset>a>img.icon {
+    margin: -5px 10px -9px 0}
+fieldset>div {
+    text-align: justify}
+fieldset>a {
+    color: inherit;
+    display: block}
+fieldset>a {
+    background-repeat: no-repeat;
+    background-image: url(chevron.png);
+    background-size: 22px 12px;
+    background-position: right center}
+fieldset>div>div,fieldset>a>div {
+    display: inline-block}
+panel>img {
+    display: block;
+    height: auto;
+    width: 90%}
+fieldset.compact>a,fieldset.compact>div {
+    padding-top: 3px;
+    padding-bottom: 3px}
+fieldset.subtitle div {
+    color: gray;
+    font-size: .9rem}
+fieldset.subtitle label {
+    color: #000;
+    font-size: 1rem}
+fieldset.footer,fieldset.header {
+    background-color: transparent;
+    border: none;
+    padding: 0}
+fieldset.footer {
+    text-align: center}
+fieldset.header {
+    width: 300px;
+    margin: 0 auto;
+    margin-bottom: -10px}
+panel>label,fieldset.footer label,fieldset.header label {
+    color: #404c64;
+    text-shadow: rgba(255,255,255,.75) 1px 1px 0}
+panel>div>label {
+    display: block;
+    font-size: 110%;
+    margin: 15px 0 -3px 15px}
+body.cydia {
+    background: 0 0!important}
+input[type=text],input[type=email],input[type=password] {
+    -webkit-appearance: none;
+    border: 1px solid #aaa;
+    height: 23px;
+    padding: 0 10px;
+    width: 240px}
+.success,.failure {
+    width: 100%;
+    font-weight: 700;
+    text-align: center}
+.success {
+    color: #0a0}
+.failure {
+    color: #b00}

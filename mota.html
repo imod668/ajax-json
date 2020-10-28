@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="./css/style.css"/>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<style>
+	.imgs{
+		width: 150px;
+		margin: 20px;
+	}
+	#error{
+		color: red;
+		margin: 50% auto;
+		font-size: 18px;
+		font-weight: 600;
+		line-height: 26px;
+	}
+	</style>
+</head>
+<body>
+	<h1 id="error"></h1>
+    <div id="main">
+	<panel>
+		<label>Name:</label>
+			<fieldset>
+				<div>
+				   <p id="Name">ten packages<p>
+				</div>
+			</fieldset>
+		 
+		<label>Version:</label>
+			<fieldset>
+				<div>
+				   <p id="Version">version packages<p>
+				</div>
+			</fieldset>
+		 
+        <label>Compatible:</label>
+			<fieldset>
+				<div>
+					<p id="Compatible">tuong thich packages<p>
+				</div>
+        </fieldset>
+		 
+		<label>Descriptions:</label>
+			<fieldset>
+				<div>
+				   <p id="Description">mo ta packages<p>
+				</div>
+			</fieldset>
+		 
+		<label>Update:</label>
+			<fieldset>
+				<div>
+					<p id="Update">ngay cap nhat packages<p>
+				</div>
+			</fieldset>
+			
+		<label>ScreenShots:</label>
+		<fieldset>
+		<div style="text-align:center;" id="screenshots_id"> </div>
+		</fieldset>
+		
+		<label>Changelog:</label>
+			<fieldset>
+				<div>
+					<p id="changelog">changelog packages<p>
+				</div>
+			</fieldset>
+    </panel>
+	</div>  
+	
+<script>
+$(document).ready(function(){
+
+	var urlhash = window.location.hash.split('#');
+	var link_url = decodeURIComponent(urlhash[1]);//decodeURIComponent remove space.
+	//console.log(link_url);
+	$.getJSON( "data/data.json", function( data ) {
+		var obj = data.packages[link_url];
+		if(obj != null){
+			$("#error").remove();
+			$("#Name").html(obj.name);
+			$("#Version").html(obj.version);
+			$("#Compatible").html(obj.compatitle);
+			$("#Description").html(obj.longdesc);
+			$("#Update").html(obj.update);
+			$("#changelog").html(obj.changelog);
+			
+			var screenshot = "";
+			$.each(obj.images,function(k, v){
+				screenshot += '<a href="'+obj.images[k]+'" target="_new">';
+				screenshot += '<img src="'+obj.images[k]+'" class="imgs"></a>';
+				$("#screenshots_id").html(screenshot);
+			});
+		}
+		else{
+			$("#error").html("ko tim thay mo ta " +urlhash[1]);
+			$("#main").remove();
+		}
+	});
+
+});
+//-----------
+</script>
+</body>
+</html>

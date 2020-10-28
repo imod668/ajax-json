@@ -1,0 +1,215 @@
+{
+"packages":
+	{
+	"Flickr":{
+			"name": "Flickr",
+			"section":"Photos",
+			"version": "4.15.11",
+			"shortdesc": "Flickr Photo & Video.",
+			"longdesc": "Tham gia cộng đồng nhiếp ảnh gia lớn nhất, có ảnh hưởng nhất trên thế giới. Tải lên, chỉnh sửa và chia sẻ ảnh của bạn từ mọi thiết bị, bất cứ lúc nào.",
+			"compatitle": "iOS 10.3 - 14",
+			"changelog" :"Bug fixes and improvements.",
+			"update": "28/10/2020",
+			"icon": "icons/flickr-icon.jpg",
+			"images":[
+				"screenshots/flickr1.jpg",
+				"screenshots/flickr2.jpg"
+			]
+		},
+	"Unsplash":{
+		"name": "Unsplash",
+		"section":"Photos",
+		"version": "1.11.1",
+		"shortdesc": "Your source for wallpapers.",
+		"longdesc": "The Unsplash app is home to over 1.5 million free high-resolution images brought to you by the world’s most generous community of photographers.",
+		"compatitle": "iOS 11.0 - 14",
+		"changelog" :"No changes for this version",
+		"update": "28/10/2020",
+		"icon": "icons/unsplash-icon.jpg",
+		"images":[
+			"screenshots/unsplash1.jpg",
+			"screenshots/unsplash2.jpg"
+		]
+	},
+	"Pinterest":{
+		"name": "Pinterest",
+		"section":"Photos",
+		"version": "8.39",
+		"shortdesc": "Healthy recipes & home design.",
+		"longdesc": "Tìm kiếm cảm hứng? Cho dù bạn đang thiết kế một ngôi nhà hay đang tìm kiếm ý tưởng du lịch, hãy tìm hướng dẫn, mẹo và thủ thuật trên Pinterest.",
+		"compatitle": "iOS 11.0 - 14",
+		"changelog" :"Performance improvements",
+		"update": "28/10/2020",
+		"icon": "icons/pinterest-icon.jpg",
+		"images":[
+			"screenshots/pinterest1.jpg",
+			"screenshots/pinterest2.jpg"
+		]
+	},
+	"Deezer":{
+		"name": "Deezer",
+		"section":"Music",
+		"version": "8.25.0",
+		"shortdesc": "Play Songs & Playlist offline.",
+		"longdesc": "Deezer là người bạn đồng hành trong âm nhạc của bạn. Trình phát nhạc luôn mang đến cho bạn những bài hát bạn yêu thích.",
+		"compatitle": "iOS 11.0 - 14",
+		"changelog" :"New for iOS 14 users.",
+		"update": "28/10/2020",
+		"icon": "icons/deezer-icon.jpg",
+		"images":[
+			"screenshots/deezer1.jpg",
+			"screenshots/deezer2.jpg"
+		]
+	},
+	"Spotify":{
+		"name": "Spotify",
+		"section":"Music",
+		"version": "8.5.81",
+		"shortdesc": "Listen to Songs and Playlists.",
+		"longdesc": "With Spotify, you can play millions of songs for free. Listen to the songs you love and enjoy music from all over the world.",
+		"compatitle": "iOS 12.0 - 14",
+		"changelog" :"Fixed stability issues",
+		"update": "28/10/2020",
+		"icon": "icons/spotify-icon.jpg",
+		"images":[
+			"screenshots/spotify1.jpg",
+			"screenshots/spotify2.jpg"
+		]
+	},
+	"SoundCloud":{
+		"name": "SoundCloud",
+		"section":"Music",
+		"version": "5.110.1",
+		"shortdesc": "Songs, playlists & podcasts.",
+		"longdesc": "SoundCloud is more than a streaming service, it’s an open global community for anyone to upload any sound for immediate discovery.",
+		"compatitle": "iOS 12.0 - 14",
+		"changelog" :"Fixed a crash that could occur when trying to reset a password.",
+		"update": "28/10/2020",
+		"icon": "icons/soundcloud-icon.jpg",
+		"images":[
+			"screenshots/soundcloud1.jpg",
+			"screenshots/soundcloud2.jpg"
+		]
+	},
+	"NhacCuaTui":{
+		"name": "NhacCuaTui",
+		"section":"Music",
+		"version": "6.3.5",
+		"shortdesc": "Music, Playlist, and Video.",
+		"longdesc": "NhacCuaTui là ứng dụng nghe nhạc cung cấp cho bạn cả phát trực tuyến và ngoại tuyến với rất nhiều bài hát thuộc mọi thể loại.",
+		"compatitle": "iOS 9.0 - 14",
+		"changelog" :"No changes for this version",
+		"update": "28/10/2020",
+		"icon": "icons/nct-icon.jpg",
+		"images":[
+			"screenshots/nct1.jpg",
+			"screenshots/nct2.jpg"
+		]
+	},
+	"Zing MP3":{
+		"name": "Zing MP3",
+		"section":"Music",
+		"version": "20.10.02",
+		"shortdesc": "Đỉnh Cao Âm Nhạc.",
+		"longdesc": "Zing MP3 là ứng dụng nghe nhạc miễn phí với nhiều tính năng nổi bật giúp bạn có trải nghiệm âm nhạc tuyệt vời nhất trên thiết bị di động của mình.",
+		"compatitle": "iOS 9.0 - 14",
+		"changelog" :"No changes for this version",
+		"update": "28/10/2020",
+		"icon": "icons/zingmp3-icon.jpg",
+		"images":[
+			"screenshots/zmp31.jpg",
+			"screenshots/zmp32.jpg"
+		]
+	},
+	"Zalo":{
+		"name": "Zalo",
+		"section":"SocialNetwork",
+		"version": "20.10.02",
+		"shortdesc": "Gọi Video sắc nét.",
+		"longdesc": "Zalo là ứng dụng nhắn tin mới dẫn đầu thị trường với nhiều tính năng tuyệt vời.",
+		"compatitle": "iOS 9.0 - 14",
+		"changelog" :"Thêm các mục nhanh hơn: chỉ cần nhấp và giữ tin nhắn có chứa ảnh, tệp và liên kết",
+		"update": "28/10/2020",
+		"icon": "icons/zalo-icon.jpg",
+		"images":[
+			"screenshots/zalo1.jpg",
+			"screenshots/zalo2.jpg"
+		]
+	},
+	"Reddit":{
+		"name": "Reddit",
+		"section":"SocialNetwork",
+		"version": "2020.41.0",
+		"shortdesc": "Find your community.",
+		"longdesc": "Reddit là nơi các chủ đề hoặc ý tưởng được sắp xếp trong các cộng đồng. Bắt đầu với những gì bạn thích và bắt đầu từ đó. Có 100K cái đang hoạt động để bạn lựa chọn.",
+		"compatitle": "iOS 12.0 - 14",
+		"changelog" :"Design Update: It’s easier to report posts and comments now",
+		"update": "28/10/2020",
+		"icon": "icons/reddit-icon.jpg",
+		"images":[
+			"screenshots/reddit1.jpg",
+			"screenshots/reddit2.jpg"
+		]
+	},
+	"Facebook":{
+			"name": "Facebook",
+			"section":"SocialNetwork",
+			"version": "292.0",
+			"shortdesc": "Facebook is a social networking.",
+			"longdesc": "Facebook Connect with friends, family, and people with similar interests. Chat privately, watch your favorite content, buy and sell items or simply spend time participating in the community.",
+			"compatitle": "iOS 10.0 - 14",
+			"changelog" :"No changes for this version",
+			"update": "15/10/2020",
+			"icon": "icons/facebook-icon.jpg",
+			"images":[
+				"screenshots/facebook1.jpg",
+				"screenshots/facebook2.jpg"
+			]
+		},
+	"Twitter":{
+			"name": "Twitter",
+			"section":"SocialNetwork",
+			"version": "8.41.1",
+			"shortdesc": "Twitter is a social networking service.",
+			"longdesc": "Twitter is an online news site and a social network where people communicate through short messages called tweets.",
+			"compatitle": "iOS 12.0 - 14",
+			"changelog" :"No changes for this version",
+			"update": "20/10/2020",
+			"icon":"icons/twitter-icon.jpg",
+			"images":[
+				"screenshots/twitter1.jpg",
+				"screenshots/twitter1.jpg"
+			]
+		},
+	"Youtube":{
+			"name": "Youtube",
+			"section":"Entertainment",
+			"version": "15.42.2",
+			"shortdesc": "Popular video sharing platform.",
+			"longdesc": "YouTube is a popular video sharing platform where users can upload or download videos to their computer or phone and share video clips. YouTube was created by three former PayPal employees in mid-February 2005.",
+			"compatitle": "iOS 11.0 - 14",
+			"changelog" :"Bug fixes, stability improvements.",
+			"update": "18/10/2020",
+			"icon":"icons/youtube-icon.jpg",
+			"images":[
+				"screenshots/youtube1.jpg",
+				"screenshots/youtube2.jpg"
+			]
+		},
+	"Tiktok":{
+			"name": "Tiktok",
+			"section":"Entertainment",
+			"version": "17.8.0",
+			"shortdesc": "Social network for video.",
+			"longdesc": "TikTok is where people share short clips inspired by music. Regardless of whether it's dancing, dancing, free-style or talented performance...",
+			"compatitle": "iOS 9.3 - 14",
+			"changelog" :"No changes for this version",
+			"update": "21/10/2020",
+			"icon":"icons/tiktok-icon.jpg",
+			"images":[
+				"screenshots/tiktok1.jpg",
+				"screenshots/tiktok2.jpg"
+			]
+		}
+	}
+}
