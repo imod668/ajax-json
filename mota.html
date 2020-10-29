@@ -23,52 +23,54 @@
 	<h1 id="error"></h1>
     <div id="main">
 	<panel>
-		<label>Name:</label>
-			<fieldset>
-				<div>
-				   <p id="Name">ten packages<p>
-				</div>
+		<div>
+			<label>Name:</label>
+				<fieldset>
+					<div>
+					   <p id="Name">ten packages<p>
+					</div>
+				</fieldset>
+			 
+			<label>Version:</label>
+				<fieldset>
+					<div>
+					   <p id="Version">version packages<p>
+					</div>
+				</fieldset>
+			 
+			<label>Compatible:</label>
+				<fieldset>
+					<div>
+						<p id="Compatible">tuong thich packages<p>
+					</div>
 			</fieldset>
-		 
-		<label>Version:</label>
+			 
+			<label>Descriptions:</label>
+				<fieldset>
+					<div>
+					   <p id="Description">mo ta packages<p>
+					</div>
+				</fieldset>
+			 
+			<label>Update:</label>
+				<fieldset>
+					<div>
+						<p id="Update">ngay cap nhat packages<p>
+					</div>
+				</fieldset>
+				
+			<label>ScreenShots:</label>
 			<fieldset>
-				<div>
-				   <p id="Version">version packages<p>
-				</div>
-			</fieldset>
-		 
-        <label>Compatible:</label>
-			<fieldset>
-				<div>
-					<p id="Compatible">tuong thich packages<p>
-				</div>
-        </fieldset>
-		 
-		<label>Descriptions:</label>
-			<fieldset>
-				<div>
-				   <p id="Description">mo ta packages<p>
-				</div>
-			</fieldset>
-		 
-		<label>Update:</label>
-			<fieldset>
-				<div>
-					<p id="Update">ngay cap nhat packages<p>
-				</div>
+			<div style="text-align:center;" id="screenshots_id"> </div>
 			</fieldset>
 			
-		<label>ScreenShots:</label>
-		<fieldset>
-		<div style="text-align:center;" id="screenshots_id"> </div>
-		</fieldset>
-		
-		<label>Changelog:</label>
-			<fieldset>
-				<div>
-					<p id="changelog">changelog packages<p>
-				</div>
-			</fieldset>
+			<label>Changelog:</label>
+				<fieldset>
+					<div>
+						<p id="changelog">changelog packages<p>
+					</div>
+				</fieldset>
+		</div>
     </panel>
 	</div>  
 	
@@ -90,11 +92,19 @@ $(document).ready(function(){
 			$("#changelog").html(obj.changelog);
 			
 			var screenshot = "";
-			$.each(obj.images,function(k, v){
-				screenshot += '<a href="'+obj.images[k]+'" target="_new">';
-				screenshot += '<img src="'+obj.images[k]+'" class="imgs"></a>';
-				$("#screenshots_id").html(screenshot);
-			});
+			<!-- $.each(obj.images,function(k, v){ -->
+				<!-- screenshot += '<a href="'+obj.images[k]+'" target="_blank">'; -->
+				<!-- screenshot += '<img src="'+obj.images[k]+'" class="imgs"></a>'; -->
+				<!-- $("#screenshots_id").html(screenshot); -->
+			<!-- }); -->
+			for (let i = 0; i < obj.images; i++) {
+			console.log(i);
+				screenshot += '<a href="screenshots/'+obj.name+'/'+i+'.jpg"" target="_blank">';
+				screenshot += '<img src="screenshots/'+obj.name+'/'+i+'.jpg" class="imgs">';
+				screenshot += '</a>';
+			$("#screenshots_id").html(screenshot);
+			}
+
 		}
 		else{
 			$("#error").html("ko tim thay mo ta " +urlhash[1]);

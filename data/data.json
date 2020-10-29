@@ -10,11 +10,8 @@
 			"compatitle": "iOS 10.3 - 14",
 			"changelog" :"Bug fixes and improvements.",
 			"update": "28/10/2020",
-			"icon": "icons/flickr-icon.jpg",
-			"images":[
-				"screenshots/flickr1.jpg",
-				"screenshots/flickr2.jpg"
-			]
+			"icon": "flickr_icon.jpg",
+			"images": 2
 		},
 	"Unsplash":{
 		"name": "Unsplash",
@@ -25,11 +22,8 @@
 		"compatitle": "iOS 11.0 - 14",
 		"changelog" :"No changes for this version",
 		"update": "28/10/2020",
-		"icon": "icons/unsplash-icon.jpg",
-		"images":[
-			"screenshots/unsplash1.jpg",
-			"screenshots/unsplash2.jpg"
-		]
+		"icon": "unsplash_icon.jpg",
+		"images": 2
 	},
 	"Pinterest":{
 		"name": "Pinterest",
@@ -40,11 +34,8 @@
 		"compatitle": "iOS 11.0 - 14",
 		"changelog" :"Performance improvements",
 		"update": "28/10/2020",
-		"icon": "icons/pinterest-icon.jpg",
-		"images":[
-			"screenshots/pinterest1.jpg",
-			"screenshots/pinterest2.jpg"
-		]
+		"icon": "pinterest_icon.jpg",
+		"images": 2
 	},
 	"Deezer":{
 		"name": "Deezer",
@@ -55,11 +46,8 @@
 		"compatitle": "iOS 11.0 - 14",
 		"changelog" :"New for iOS 14 users.",
 		"update": "28/10/2020",
-		"icon": "icons/deezer-icon.jpg",
-		"images":[
-			"screenshots/deezer1.jpg",
-			"screenshots/deezer2.jpg"
-		]
+		"icon": "deezer_icon.jpg",
+		"images": 2
 	},
 	"Spotify":{
 		"name": "Spotify",
@@ -70,11 +58,8 @@
 		"compatitle": "iOS 12.0 - 14",
 		"changelog" :"Fixed stability issues",
 		"update": "28/10/2020",
-		"icon": "icons/spotify-icon.jpg",
-		"images":[
-			"screenshots/spotify1.jpg",
-			"screenshots/spotify2.jpg"
-		]
+		"icon": "spotify_icon.jpg",
+		"images": 2
 	},
 	"SoundCloud":{
 		"name": "SoundCloud",
@@ -85,11 +70,8 @@
 		"compatitle": "iOS 12.0 - 14",
 		"changelog" :"Fixed a crash that could occur when trying to reset a password.",
 		"update": "28/10/2020",
-		"icon": "icons/soundcloud-icon.jpg",
-		"images":[
-			"screenshots/soundcloud1.jpg",
-			"screenshots/soundcloud2.jpg"
-		]
+		"icon": "soundcloud_icon.jpg",
+		"images": 2
 	},
 	"NhacCuaTui":{
 		"name": "NhacCuaTui",
@@ -100,11 +82,8 @@
 		"compatitle": "iOS 9.0 - 14",
 		"changelog" :"No changes for this version",
 		"update": "28/10/2020",
-		"icon": "icons/nct-icon.jpg",
-		"images":[
-			"screenshots/nct1.jpg",
-			"screenshots/nct2.jpg"
-		]
+		"icon": "nct_icon.jpg",
+		"images": 2
 	},
 	"Zing MP3":{
 		"name": "Zing MP3",
@@ -115,11 +94,8 @@
 		"compatitle": "iOS 9.0 - 14",
 		"changelog" :"No changes for this version",
 		"update": "28/10/2020",
-		"icon": "icons/zingmp3-icon.jpg",
-		"images":[
-			"screenshots/zmp31.jpg",
-			"screenshots/zmp32.jpg"
-		]
+		"icon": "zingmp3_icon.jpg",
+		"images": 2
 	},
 	"Zalo":{
 		"name": "Zalo",
@@ -130,11 +106,8 @@
 		"compatitle": "iOS 9.0 - 14",
 		"changelog" :"Thêm các mục nhanh hơn: chỉ cần nhấp và giữ tin nhắn có chứa ảnh, tệp và liên kết",
 		"update": "28/10/2020",
-		"icon": "icons/zalo-icon.jpg",
-		"images":[
-			"screenshots/zalo1.jpg",
-			"screenshots/zalo2.jpg"
-		]
+		"icon": "zalo_icon.jpg",
+		"images": 2
 	},
 	"Reddit":{
 		"name": "Reddit",
@@ -145,11 +118,8 @@
 		"compatitle": "iOS 12.0 - 14",
 		"changelog" :"Design Update: It’s easier to report posts and comments now",
 		"update": "28/10/2020",
-		"icon": "icons/reddit-icon.jpg",
-		"images":[
-			"screenshots/reddit1.jpg",
-			"screenshots/reddit2.jpg"
-		]
+		"icon": "reddit_icon.jpg",
+		"images": 3
 	},
 	"Facebook":{
 			"name": "Facebook",
@@ -160,11 +130,8 @@
 			"compatitle": "iOS 10.0 - 14",
 			"changelog" :"No changes for this version",
 			"update": "15/10/2020",
-			"icon": "icons/facebook-icon.jpg",
-			"images":[
-				"screenshots/facebook1.jpg",
-				"screenshots/facebook2.jpg"
-			]
+			"icon": "facebook_icon.jpg",
+			"images": 2
 		},
 	"Twitter":{
 			"name": "Twitter",
@@ -175,11 +142,8 @@
 			"compatitle": "iOS 12.0 - 14",
 			"changelog" :"No changes for this version",
 			"update": "20/10/2020",
-			"icon":"icons/twitter-icon.jpg",
-			"images":[
-				"screenshots/twitter1.jpg",
-				"screenshots/twitter1.jpg"
-			]
+			"icon":"twitter_icon.jpg",
+			"images": 2
 		},
 	"Youtube":{
 			"name": "Youtube",
@@ -190,11 +154,8 @@
 			"compatitle": "iOS 11.0 - 14",
 			"changelog" :"Bug fixes, stability improvements.",
 			"update": "18/10/2020",
-			"icon":"icons/youtube-icon.jpg",
-			"images":[
-				"screenshots/youtube1.jpg",
-				"screenshots/youtube2.jpg"
-			]
+			"icon":"youtube_icon.jpg",
+			"images": 2
 		},
 	"Tiktok":{
 			"name": "Tiktok",
@@ -205,11 +166,8 @@
 			"compatitle": "iOS 9.3 - 14",
 			"changelog" :"No changes for this version",
 			"update": "21/10/2020",
-			"icon":"icons/tiktok-icon.jpg",
-			"images":[
-				"screenshots/tiktok1.jpg",
-				"screenshots/tiktok2.jpg"
-			]
+			"icon":"tiktok_icon.jpg",
+			"images": 2
 		}
 	}
 }
