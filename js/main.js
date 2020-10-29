@@ -1,6 +1,7 @@
 //load data-------------
 function loadData(){
 	var url = "data/data.json";
+	//var url = "https://test2610-89c37.firebaseio.com/packages.json"; //use api json
 	$.ajax({
 		type: 'GET',
 		url: url,
@@ -9,8 +10,10 @@ function loadData(){
 		dataType: 'json',
 		success: function(data) {
 			rt_json = data.packages;
+			//rt_json = data; //use api json
+			
+			
 			for (var key_section in rt_json) {
-				
 				var danhmuc = rt_json[key_section].section;
 					if(danhmuc==null) {
 						danhmuc = "Unknown";
@@ -39,6 +42,7 @@ function loadData(){
 //load Section
 var packagesSection = {};
 function loadSection(){
+	var total = Object.keys(rt_json).length;
 	var sectionContent = "";
 	for (var pk_section in packagesSection) {
 		var total_section = packagesSection[pk_section].length;
@@ -49,6 +53,7 @@ function loadSection(){
 		sectionContent += "</a>";
 	}
 	$("#pkgs").hide().html(sectionContent).fadeIn(500);
+	$(".applications").html("All_apps: ("+total+")");
 }
 
 //load packages Section
@@ -62,7 +67,7 @@ function allpackages(sectionName){
 	var urlOpen ="mota.html#" + item.name;
 
 		html_data += "<a href='"+urlOpen+"' target='_blank' role='button'>";
-		html_data += "<img src='"+item.icon+"' class='icon'>";
+		html_data += "<img src='icons/"+item.icon+"' class='icon'>";
 		html_data += "<div>";
 		html_data += "<label>"+item.name+"</label>";
 		html_data += "<p>"+item.shortdesc+"</p>";
@@ -86,7 +91,7 @@ function lastUpdate(){
 		}
 		var urlOpen ="mota.html#" + last;
 		htmlnews += '<a href="'+urlOpen+'" target="_new">';
-		htmlnews += '<img class="icon" src="'+ rt_json[last].icon +'">';
+		htmlnews += '<img class="icon" src="icons/'+ rt_json[last].icon +'">';
 		htmlnews += '<div>';
 		htmlnews += '<label>'+ rt_json[last].name +'</label>';
 		htmlnews += '<p>'+ rt_json[last].shortdesc +'</p>';
