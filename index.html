@@ -20,6 +20,9 @@
 	width: 70px;
 	height: auto;
 }
+.hidden{
+	display: none;
+}
 </style>
 </head>
 <body onload="loadData();">
@@ -31,6 +34,7 @@
 	<div id="main" hidden>
 		<label class="sections">Last Update</label>
 		<fieldset id="update"></fieldset>
+		<fieldset><a id="load" style="text-align: center;">Load more...</a></fieldset>
 
 		<label class="sections applications">Applications</label>
 		<fieldset id="pkgs"></fieldset>
